@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  header, footer {
+    background-color: black;
+  }
+  
+  .site-title {
+    color: blue;
+  }
+  
+  #my-image {
+    box-shadow: 0 0 2px 1px dark grey;
+  }
+  
+  ul {
+    list-style-type: square;
+  }
+  
+  ul li:nth-child(odd) {
+    background: darkkhaki;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav a {
+    background: darkkhaki;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  nav a:hover, nav a:focus {
+    background-color: black;
+  }
+  
