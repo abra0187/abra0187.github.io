@@ -1,0 +1,135 @@
+body {
+    color: red;
+}
+/* this is a css comment
+shortcut for adding comment is ctrl+d */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+}
+h1{
+    color: :antiquewhite;
+}
+p{
+   background-color: aqua; 
+
+}
+/* selecting multiple elements*/
+h1,h2,h3, h4{
+    text-decoration: underline;
+}
+/*selecting child elements*/
+nav ul{
+    list-style: none;
+}
+/*selecting child elements with multiple elements*/
+nav ul a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+
+/* selectng element with id value*/
+#treatoftheweek {
+    background-color: aliceblue;
+}
+.blue-link{
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+.large-text{
+    font-size: 20px;
+}
+.white text{
+    color: antiquewhite;
+}
+/* combinators
+direct child selector- will only select the child of the parent
+*/
+article>p {
+    font-size: 24px;
+}
+/* adjecent sibling selector- select the element that is vey next sibling to the selcted element,if any exists */
+
+h3+ul{
+    border: 1px solid black;
+}
+h3~p{
+    text-transform: uppercase;
+}
+/* attribute selectors*/
+[href="#treatofweek"]{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*[src="./images/coffee-shop.jpg"]{
+    border: 4px solid darkgray;
+}*/
+[src$=".jpeg"]{
+    border: 4px solid darkgrey;
+}
+/*pseudo classes */
+nav ul a:hover,
+nav ul a:focus{
+    text-decoration: underline;
+}
+/* styling navigation*/
+nav ul a,
+nav ul a:link,
+nav ul a:visited {
+    background-color: antiquewhite;
+    /* horizontal vertical blur speed color */
+    box-shadow:-2px 2px 4px 2px black;
+}
+nav ul :current,
+nav ul:hover,
+nav ula:focus{
+    text-decoration: underline;
+}
+nav ul a:active{
+    box-shadow: 0 0 4px 2px black;
+
+}
+/*position selectors */
+/* first-child and last-child*/
+aside ul li:first-child{
+    font-weight: bold;
+}
+section ol li:last-child{
+    font-weight: bold;
+}
+/* styling table*/
+table{
+    border-collapse: collapse;
+}
+/* nth child selector-even/odd */
+/* hex color value with 6 characters*/
+tbody tr:nth-child(even){
+    background-color: #d5836c;
+}
+/* using nth-child with n */
+/* where n is 0,1,2,3...until no.eklements */
+table th:nth-child(n)
+table td :nth-child(n){
+    border: 1px solid black;
+
+}
+/* using a formula in nth-child selector*/
+table td:nth-child(2n+1){
+    background-color: rgba(0,0green, 0 ,0.2);
+}
+/* css speciality
+formula: In-Line style,ID,Class, tag-name(1,0,0,0)
+*/
+footer{
+    background-color: aqua;
+}
+/* (0,0,0,2)*/
+body footer{
+    background-color: beige;
+}
+.site-footer{
+    background-color: aquamarine;
+
+}
