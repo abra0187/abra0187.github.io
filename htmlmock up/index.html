@@ -1,56 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
 
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/final.css">
 
 </head>
 <body>
     
+        <section class="heading">
+        <img class="image-1" src="images/logo.png" alt="logo">
+        <ul class="unorderlist">
+            <li class="navlist-1"> <a href="#">Home</a></li>
+            </section>  
+            <li class="navlist"> <a href="#aboutus">About Us</a></li>
+            <li class="navlist"> <a href="#service">Services</a></li>
+            <li class="navlist"> <a href="#team">Team</a></li>
+            <li class="navlist"> <a href="#contactus">Contact</a></li>
+            </ul>
+            <form action="#" method="get">
+                <input type="search" id="my-input" placeholder="search..">      
+                <button type="submit">Search</button>
+            </form><br>
     <header>
-        <nav class="navigation">
+        <div class="welcome">
             <div class="container">
-                <img class="image-1" src="images/logo.png" alt="logo">
-                <ul class="unorderlist">
-                    <li class="navlist-1"> <a href="#">Home</a></li>
-                    <li class="navlist"> <a href="#aboutus">About Us</a></li>
-                    <li class="navlist"> <a href="#service">Services</a></li>
-                    <li class="navlist"> <a href="#team">Team</a></li>
-                    <li class="navlist"> <a href="#contactus">Contact</a></li>
-                </ul>
-                <form>
-                 <input type="search">      
-                 <form action="#" method="get">
-                    <button type="submit">Search</button>
-                  </form>
-                  
-                </form>
-            </div> 
-        </nav>
-
-       
-
-
-            
-            <div class="header-welcome">
-          <div class="container">
-          <h1> Welcome to Three Star Media </h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, in? Dolore illum at deleniti atque, eius ut, dicta dolorum quasi, magni voluptatum quam! Impedit totam necessitatibus consectetur reprehenderit, modi perspiciatis sequi debitis? Deleniti rem at esse omnis officiis cum? Rerum, numquam eius sequi placeat facere velit impedit! Dolorem, aliquam molestiae.</p>
-            <a href="#contactus" class="contact-button"> Connect with us</a>
-            <img src="/htmlmock up/images/main-banner.jpg"
+                <h1> Welcome to Three Star Media </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, in? Dolore illum at deleniti atque, eius ut, dicta dolorum quasi, magni voluptatum quam! Impedit totam necessitatibus consectetur reprehenderit,
+                modi perspiciatis sequi debitis? Deleniti rem at esse omnis officiis cum? Rerum, numquam eius sequi placeat facere velit impedit! Dolorem, aliquam molestiae.</p><br>
+                <a href="#contactus" class="contact-button"> Connect with us</a>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="section-color">
-            <section class="content-about">
+        <div class="color">
+            <section class="about">
                 <div class="container">
-               <img src="./about-us.jpg" alt="About us">
+               
                 </div>
                 <div class="text-aboutus">
               <h2> About us </h2>
@@ -64,17 +54,13 @@
             </section>
         </div>
         <div>
-            <section class="content-service" id="service">
+            <section class="service" id="service">
                 <h2> Our Services </h2>
-                <div class="ball-transformation">
-                    <div class="pic-transformation">
-                        <img src="./images/digital.jpg" alt="Service-image">
-                        <div class="font-service">
-                      <h3> Digital Transformation</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla unde nemo, dicta cupiditate odit consectetur veniam cumque facilis eveniet pariatur modi blanditiis necessitatibus velit, magni at ipsa earum tenetur nihil</p>
-                      <button class="service-button"> Digital Plan </button>
-                        </div>
-                    </div> 
+                    <img src="./images/digital.jpg" alt="Service-image">
+                    <div class="font-service">
+                    <h3> Digital Transformation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla unde nemo, dicta cupiditate odit consectetur veniam cumque facilis eveniet pariatur modi blanditiis necessitatibus velit, magni at ipsa earum tenetur nihil</p>
+                    <button class="service-button"> Digital Plan </button>
                 </div> 
                 <div class="marketing">
                     <div class="pic-markting">
@@ -133,7 +119,7 @@
             <h2> Our Team </h2>
             <div class="team-container">
                 <div class="image-bob-rite">
-             <img src="images/john.jpg" alt=" bob ">
+             <img src="images/john.jpg" alt=" john ">
                 </div>
                 <div class="bob-about">
                <h3>John Doe </h3>
@@ -143,7 +129,7 @@
                  </p>
                 </div>
                 <div class="image-john-doe">
-                    <img src="images/bob.jpg" alt=" john ">
+                    <img src="images/bob.jpg" alt=" bob ">
                 </div>
                 <div class="about-john">
               <h3> Bob Rite  </h3>
@@ -155,68 +141,54 @@
                 </div>
             </div>
         </section>
-        <div>
-            <section class="contact">
-                <div class="contact-container" id="contactus">
-                    <h2> Contact Us </h2>
-                    <div class="contact-section">
-                    <div class="message-area">
-                    <h3> message here </h3>
-                    <div class="form-table">
-                                <div>
-                            <label for="name"> Name </label>
-                            <input type="text" id="name" name="Name">
-                                </div>
-                                <div>
-                            <label for="email"> Email </label>
-                            <input type="text" name="email" id="email">
-                                </div>
-                                <div>
-                            <label for="message"> Message </label>
+        <section class="contact">
+            <div class="contact-container" id="contactus">
+                <h2> Contact Us </h2>
+                <h3> message here </h3>
+                <div class="columns">
+                    <div class="col-1">
+                        <label for="name"> Name </label>
+                        <input type="text" id="name" name="Name">
+
+                        <label for="email"> Email </label>
+                        <input type="text" name="email" id="email">
+
+                        <label for="message"> Message </label>
                             <textarea name="message" id="message"></textarea>
-                                </div>
-                                <button class="button-submit">
-                                    Send
-                                </button>
-                            </div>
+                            <button class="button-submit">Send</button>
+                    </div>
+                    <div class="col-2">
+                        <div class="map">
+                            <h3> Location </h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567603!2d-75.75712548459778!3d45.34992777909984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669745144677!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
-
-                    
-
-                    <div class="operational-hours">
-                        <h3> Hours of operation </h3>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th> Days </th>
-                                    <th> Hours </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td> Monday - Friday </td>
-                                    <td> 9 Am - 6 Pm</td>
-                                </tr>
-                                <tr>
-                                    <td> Saturday - Sunday </td>
-                                    <td> Closed </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div> 
-            </section> 
-        </div>     
-
+                </div>    
+                <div class="operational-hours">
+                    <h3> Hours of operation </h3>
+                    <table>
+                        <tr>
+                            <th> Days </th>
+                            <th> Hours </th>
+                        </tr>
+                        <tr>
+                            <td> Monday - Friday </td>
+                            <td> 9 Am - 6 Pm</td>
+                        </tr>
+                        <tr>
+                            <td> Saturday - Sunday </td>
+                            <td> Closed </td>
+                        </tr>
+                    </table>
+                </div>
+            </div> 
+        </section> 
+         
     </main>
-    <div class="map">
-        <h3> Location </h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567603!2d-75.75712548459778!3d45.34992777909984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669745144677!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+   
     <footer>
         <div class="wrapper">
-            <p> &copy Copyright Three Star Media, 2020 <br>
+            <p> Copyright Three Star Media, 2020 <br>
                 All images are taken from Unsplash
             </p>
         </div>
